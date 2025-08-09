@@ -3,7 +3,7 @@
 venv/
 env/
 
-# Archivos de Python
+# Archivos Python
 __pycache__/
 *.pyc
 *.pyo
@@ -12,6 +12,17 @@ __pycache__/
 # Jupyter Notebooks
 .ipynb_checkpoints/
 
-# Otros archivos comunes
-.DS_Store
+# Archivos grandes de datos
+data/imagenes/
+data - copia/imagenes/
+
+# Logs
 *.log
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Sistema
+.DS_Store
+Thumbs.db
