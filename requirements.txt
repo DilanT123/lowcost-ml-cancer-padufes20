@@ -1,0 +1,26 @@
+# requirements.txt para PADUFES20POST - Análisis de Datos Avanzado
+# Dependencias principales
+numpy>=1.24.0
+pandas>=1.5.0
+scikit-learn>=1.2.2
+matplotlib>=3.7.1
+
+# Procesamiento de imágenes/vision
+scikit-image>=0.19.3
+opencv-python>=4.7.0
+pyyaml>=6.0  # Para configuración
+
+# Visualización avanzada
+seaborn>=0.12.2
+plotly>=5.15.0
+
+# Manejo de datos desbalanceados
+imbalanced-learn>=0.10.1
+
+# Monitoreo de recursos
+psutil>=5.9.4
+memory-profiler>=0.61.0
+
+# Dependencias de optimización
+joblib>=1.2.0
+threadpoolctl>=3.1.0
